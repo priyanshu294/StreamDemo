@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+//Find the first repeating character in a string
 public class FirstRepeatingChar {
     public static void main(String[] args) {
 
