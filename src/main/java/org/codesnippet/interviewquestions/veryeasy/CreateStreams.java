@@ -18,5 +18,6 @@ public class CreateStreams {
         Stream<Integer> integerStream = Stream.of(1, 2, 3);
         //4. stream generate
         Stream<Double> limit = Stream.generate(Math::random).limit(5);
+        System.out.println(limit.toList());
     }
 }
